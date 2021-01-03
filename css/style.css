@@ -1,0 +1,22 @@
+
+body {
+	/* the follow is the code to have the image display as a full page */
+	-moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	 box-sizing: border-box; /* IE */
+	 
+	 background-color: white;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 height: 100vh;
+}
+
+h1 {
+	text-align: center;
+}
+footer {
+	font-size: x-small;
+	font-style: italic;
+}

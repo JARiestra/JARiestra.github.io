@@ -1,0 +1,83 @@
+
+body {
+	background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.xDrxw_Ks8tn5Q9yx4I_MLgHaEG%26pid%3DApi&f=1');
+	/* the follow is the code to have the image display as a full page */
+	background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 69% 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 92px;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	background: #00BFFF;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 36px;
+}
+
+h3 {
+	margin-bottom: 3px;
+	font-size: 24px;
+}
+
+h4 {
+	margin-bottom: 3px;
+	font-size: 16px;
+}
+
+a {
+	color: #48D1CC;
+	text-decoration: none;
+}
+
+#container {
+	background: #1E524E;
+	color: white;
+	width: 500px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#band-name {
+	color: peachpuff;
+	font-family: 'Oswald', sans-serif;
+}
+
+#tunes {
+	text-align: center;
+}
+
+.icons {
+	background: black;
+	border-radius: 25%;
+	border-style: solid;
+	border-width: thin;
+	border-color: #778899;
+}
+
+#spotify {
+	color: #1ED760;
+	font-size: 20px;
+}
+
+#apple-music {
+	color: #fa57c1;
+	font-size: 20px;
+}
