@@ -1,0 +1,346 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: rgba(255, 89, 95, 50%);
+}
+
+strong {
+  font-weight: 600;
+}
+
+section{
+  padding: 15px 10px;
+}
+
+
+.logo, .brief {
+  background: white;
+}
+
+li {
+  list-style: none;
+}
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*
+ * logo styles
+*/
+.logo {
+  padding: 0px;
+  height: 3.75rem;
+}
+.logo img {
+  border-right: 0.0625rem solid #DCE0E0;
+}
+
+/*
+ * ____ styles
+*/
+.dog-hero{
+  padding: 0px;
+  line-height: 0px;
+}
+.dog-hero img{
+  width: 100%;
+}
+
+/*
+ * brief styles
+*/
+.brief {
+  border-bottom: 0.0625rem solid #DCE0E0;
+}
+
+.profile, .booking {
+  text-align: center;
+}
+
+.owern-details img {
+  border-radius: 50%;
+}
+
+.owern-details h2 {
+  font-family: OpenSans;
+  font-weight: normal;
+  font-size: 1.1429rem;
+  color: #909597;
+}
+
+.pet-details {
+  line-height: 1.50rem;
+  margin-left: 0.625rem;
+}
+
+.pet-details h1{
+  font-family: OpenSans;
+  font-weight: normal;
+  font-size: 1.375rem;
+  color: #666A6C;
+}
+
+.pet-details h3 {
+  margin-bottom: 0.625rem;
+}
+
+.booking {
+  margin-top: 1.50rem;
+}
+
+.booking h2 {
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+}
+
+.owern-details{
+  margin-bottom: 0.25rem;
+}
+.owern-details img{
+  width:  5.625rem;
+}
+
+.adjust {
+  margin-top: 0.625rem;
+}
+
+/*
+ * details styles
+*/
+.details {
+  background-color: #f5f5f5;  
+}
+.details h3 {
+  font: OpenSans;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #565A5C;
+  text-align: center;
+  margin: 0.625rem 0;
+}
+
+.details h4 {
+  margin-bottom: 0.625rem;
+}
+
+.details aside {
+  font-size: 0.8125rem;
+  border-bottom: 0.0625rem solid #DCE0E0;
+}
+
+#contact {
+  font-weight: bold;
+  color: #FF595F;
+  text-align: center;
+  margin: 0.625rem 0;
+}
+
+/*
+ * about styles
+*/
+
+.about > p {
+  font-family: OpenSans;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  color: #565A5C
+}
+
+/*
+ * care styles
+*/
+.care {
+  margin: 0.625rem 0;
+  padding-bottom: 0.625rem;
+}
+.details-list {
+  line-height: 1.2rem;
+}
+.details-list span {
+  font-weight: bold;
+}
+
+/*
+ * games styles
+*/
+.games {
+  padding-bottom: 0.625rem;
+}
+
+.games img{
+  width: 1.375rem;
+}
+
+.gameList {
+  line-height: 2.5rem;
+}
+
+.gameList li {
+  color: black;
+}
+
+/*
+ * photos styles
+*/
+.photos {
+  margin-top: 0.9375rem;
+  text-align: center;
+}
+.brief .icons {
+  float: left;
+  width: 33.3%;
+}
+
+.photos img {
+  width: 90%;
+}
+
+/*
+ * case when page is bigger
+*/
+@media all and (min-width: 1060px) {
+  section {
+    padding: 0px;
+  }
+  .container{
+    width: 65rem;
+    margin: 0 auto;
+  }
+  .col {
+    float: left;
+  }
+  .brief {
+    height: 12.5rem;
+  }
+  .brief .profile {
+    width: 40.9375rem;
+    margin-top: 25px;
+  }
+  .brief .owern-details {
+    width: 20%;
+  }
+  .brief .pet-details {
+    width: 80%;
+    margin: 0px;
+  }
+  .brief .icons {
+    width: 30%;
+  }
+  .pet-details h1, .pet-details h3 {
+    text-align: left;
+  }
+  .pet-details h5 {
+    font-size: 11px;
+  }
+  .brief .booking {
+    width: 380px;
+  }
+  .button {
+    width: 274px;
+  }
+  .details h3 {
+    margin: 0px;
+    line-height: 60px;
+  }
+  .details aside {
+    width: 655px;
+  }
+  aside.profile {
+    border-right: 1px solid #DCE0E0;
+  }
+  .pet-details-text {
+    margin: 0 0 0 50px;
+  }
+  .dog-hero img{
+    height: 37.5rem;
+  }
+  .care {
+    margin: 0;
+    padding: 0px;
+    height: 8.125rem;
+    padding-top: 1.75rem;
+  }
+  .care h4 {
+    margin: 0;
+    padding: 0px;
+    width: 10.625rem;
+  }
+  .care .likes {
+    width: 16.25rem;
+  }
+  .care .time {
+    width: 14.0625rem;
+  }
+  #contact {
+    text-align: left;
+  }
+  .games {
+    height: 8.125rem;
+    margin-top: 2rem;
+  }
+  .games h4{
+    width: 10.625rem;
+  }
+  .games ul {
+    width: 16.25rem;
+  }
+  .photos {
+    margin-bottom: 3rem;
+  }
+  .photos img {
+    width: 12.5rem;
+    height: 18.75rem;
+  }
+  .middle-img{
+    margin: 0 1.25rem 0 1.25rem;
+  }
+}
+
+.icons img {
+  width: 2.125rem;
+  height: 1.875rem;
+}
